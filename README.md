@@ -1,0 +1,1 @@
+Authorization via the Oauth protocol in VK
