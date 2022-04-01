@@ -60,13 +60,13 @@ class LoginViewController: UIViewController {
         var constraints = [NSLayoutConstraint]()
         constraints.append(label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100))
         constraints.append(label.bottomAnchor.constraint(greaterThanOrEqualTo: loginButton.topAnchor, constant: -400))
-        constraints.append(label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30))
-        constraints.append(label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30))
+        constraints.append(label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20))
+        constraints.append(label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20))
         
-        constraints.append(loginButton.heightAnchor.constraint(equalToConstant: 60))
-        constraints.append(loginButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -40))
-        constraints.append(loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30))
-        constraints.append(loginButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30))
+        constraints.append(loginButton.heightAnchor.constraint(equalToConstant: 55))
+        constraints.append(loginButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -25))
+        constraints.append(loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20))
+        constraints.append(loginButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20))
         NSLayoutConstraint.activate(constraints)
     }
 }

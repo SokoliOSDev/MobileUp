@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E55F3F127F3CB91007639E2 /* VKSdkFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */; };
-		3E55F3F227F3CB91007639E2 /* VKSdkFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0D2C502B4B0F79A0452FFA7D /* Pods_MobileUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F5DF0AF911ACE507FC24FA /* Pods_MobileUp.framework */; };
 		3E55F3FE27F440BF007639E2 /* LoginViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55F3FD27F440BF007639E2 /* LoginViewController+Extention.swift */; };
 		3EF222BC27F19AB600C66E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF222BB27F19AB600C66E56 /* AppDelegate.swift */; };
 		3EF222BE27F19AB600C66E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF222BD27F19AB600C66E56 /* SceneDelegate.swift */; };
 		3EF222C027F19AB600C66E56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF222BF27F19AB600C66E56 /* LoginViewController.swift */; };
 		3EF222C527F19AB700C66E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF222C427F19AB700C66E56 /* Assets.xcassets */; };
 		3EF222C827F19AB700C66E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF222C627F19AB700C66E56 /* LaunchScreen.storyboard */; };
-		3EF222D327F1A3FD00C66E56 /* CollectionPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF222D227F1A3FD00C66E56 /* CollectionPhotoController.swift */; };
+		B631BDC327F6EE4C00A7E153 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B631BDC227F6EE4C00A7E153 /* AlbumViewController.swift */; };
+		B6E86D0627F74BD9003205B6 /* VKSdkFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */; };
+		B6E86D0727F74BD9003205B6 /* VKSdkFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3E55F3F227F3CB91007639E2 /* VKSdkFramework.xcframework in Embed Frameworks */,
+				B6E86D0727F74BD9003205B6 /* VKSdkFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11F5DF0AF911ACE507FC24FA /* Pods_MobileUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VKSdkFramework.xcframework; path = Carthage/Build/VKSdkFramework.xcframework; sourceTree = "<group>"; };
 		3E55F3FD27F440BF007639E2 /* LoginViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Extention.swift"; sourceTree = "<group>"; };
 		3EF222B827F19AB600C66E56 /* MobileUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +44,9 @@
 		3EF222C427F19AB700C66E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF222C727F19AB700C66E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF222C927F19AB700C66E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EF222D227F1A3FD00C66E56 /* CollectionPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPhotoController.swift; sourceTree = "<group>"; };
+		4426AE42DE638E66250B1A42 /* Pods-MobileUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUp.release.xcconfig"; path = "Target Support Files/Pods-MobileUp/Pods-MobileUp.release.xcconfig"; sourceTree = "<group>"; };
+		61D85682A712962E311F6591 /* Pods-MobileUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileUp.debug.xcconfig"; path = "Target Support Files/Pods-MobileUp/Pods-MobileUp.debug.xcconfig"; sourceTree = "<group>"; };
+		B631BDC227F6EE4C00A7E153 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E55F3F127F3CB91007639E2 /* VKSdkFramework.xcframework in Frameworks */,
+				B6E86D0627F74BD9003205B6 /* VKSdkFramework.xcframework in Frameworks */,
+				0D2C502B4B0F79A0452FFA7D /* Pods_MobileUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				3E55F3F027F3CB91007639E2 /* VKSdkFramework.xcframework */,
+				11F5DF0AF911ACE507FC24FA /* Pods_MobileUp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,6 +85,7 @@
 				3EF222BA27F19AB600C66E56 /* MobileUp */,
 				3EF222B927F19AB600C66E56 /* Products */,
 				3E55F3EF27F3CB91007639E2 /* Frameworks */,
+				534A07562DDF01D7018E43C0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				3EF222BF27F19AB600C66E56 /* LoginViewController.swift */,
-				3EF222D227F1A3FD00C66E56 /* CollectionPhotoController.swift */,
+				B631BDC227F6EE4C00A7E153 /* AlbumViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,6 +136,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		534A07562DDF01D7018E43C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61D85682A712962E311F6591 /* Pods-MobileUp.debug.xcconfig */,
+				4426AE42DE638E66250B1A42 /* Pods-MobileUp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EF222CC27F19AB700C66E56 /* Build configuration list for PBXNativeTarget "MobileUp" */;
 			buildPhases = (
+				0F62705C602E826BC6731413 /* [CP] Check Pods Manifest.lock */,
 				3EF222B427F19AB600C66E56 /* Sources */,
 				3EF222B527F19AB600C66E56 /* Frameworks */,
 				3EF222B627F19AB600C66E56 /* Resources */,
@@ -197,6 +215,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F62705C602E826BC6731413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3E55F3EE27F3CAD3007639E2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF222D327F1A3FD00C66E56 /* CollectionPhotoController.swift in Sources */,
 				3EF222C027F19AB600C66E56 /* LoginViewController.swift in Sources */,
+				B631BDC327F6EE4C00A7E153 /* AlbumViewController.swift in Sources */,
 				3EF222BC27F19AB600C66E56 /* AppDelegate.swift in Sources */,
 				3E55F3FE27F440BF007639E2 /* LoginViewController+Extention.swift in Sources */,
 				3EF222BE27F19AB600C66E56 /* SceneDelegate.swift in Sources */,
@@ -360,6 +400,7 @@
 		};
 		3EF222CD27F19AB700C66E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D85682A712962E311F6591 /* Pods-MobileUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,6 +429,7 @@
 		};
 		3EF222CE27F19AB700C66E56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4426AE42DE638E66250B1A42 /* Pods-MobileUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

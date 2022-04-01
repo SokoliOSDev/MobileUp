@@ -19,7 +19,7 @@ extension LoginViewController: VKSdkDelegate, VKSdkUIDelegate {
     }
     
     private func AuthorizationFinished() {
-        let rootVC = CollectionPhotoController()
+        let rootVC = AlbumViewController()
         let navVC = UINavigationController(rootViewController: rootVC)
         navVC.modalPresentationStyle = .fullScreen
         navVC.navigationBar.backgroundColor = .white

@@ -1,14 +1,14 @@
 //
-//  CollectionPhotoController.swift
+//  AlbumViewController.swift
 //  MobileUp
 //
-//  Created by Сокол Даниил on 29.03.2022.
+//  Created by Даниил Сокол on 01.04.2022.
 //
 
 import UIKit
+import VKSdkFramework
+class AlbumViewController: UIViewController {
 
-class CollectionPhotoController: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -19,8 +19,14 @@ class CollectionPhotoController: UIViewController {
                                                             action: #selector(exit))
         navigationItem.rightBarButtonItem?.tintColor = .black
     }
-    
+        
     @objc func exit() {
         dismiss(animated: true, completion: nil)
     }
-}
+    
+    private var collectionView: UICollectionView?
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 20
+    }}
+
